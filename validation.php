@@ -38,7 +38,7 @@ return [
     'email'                => 'O campo :attribute deve ser um endereço de e-mail válido.',
     'exists'               => 'O campo :attribute selecionado é inválido.',
     'file'                 => 'O campo :attribute deve ser um arquivo.',
-    'filled'               => 'O campo :attribute o campo deve ter um valor.',
+    'filled'               => 'O campo :attribute deve ter um valor.',
     'gt'                   => [
         'numeric' => 'O campo :attribute deve ser maior que :value.',
         'file'    => 'O campo :attribute deve ser maior que :value kilobytes.',
