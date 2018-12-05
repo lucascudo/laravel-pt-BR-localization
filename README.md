@@ -13,7 +13,7 @@
   ```
 2. Configurar o Framework para utilizar 'pt-BR' como linguagem padrão
   ```
-  // Altere Linha 81 do arquivo config/app.php para:
+  // Altere Linha 83 do arquivo config/app.php para:
   'locale' => 'pt-BR',
   ```
 ## Localização para outras versões do Laravel
