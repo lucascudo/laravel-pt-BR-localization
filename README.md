@@ -23,5 +23,5 @@
   ```
 ## Localização para outras versões do Laravel 5
   
+* [Laravel 5.5](https://github.com/enniosousa/laravel-5.5-pt-BR-localization)
 * [Laravel 5.4](https://github.com/Leomhl/laravel-5.4-pt-br-localization)
-* [Laravel 5.5](https://github.com/enniosousa/laravel-5.5-pt-BR-localization
