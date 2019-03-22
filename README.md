@@ -1,13 +1,10 @@
 # Arquivos de linguagem em Português do Brasil (pt-BR) para Laravel >= 5.6
 
 ## Instalação
-1. Clonar este repositório na pasta `resources/lang/` do seu projeto
+1. Clonar este repositório na pasta `resources/lang/` do seu projeto e fazer checkout para versão desejada. Exemplo:
   ```shell
   $ cd resources/lang/
   $ git clone https://github.com/lucascudo/laravel-pt-BR-localization.git pt-BR
-  ```
-  Faça checkout para versão desejada. Exemplo:
-   ```shell
   $ cd pt-BR
   $ git checkout 5.8
   ```
