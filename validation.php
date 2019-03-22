@@ -1,7 +1,5 @@
 <?php
-
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Validation Language Lines
@@ -12,7 +10,6 @@ return [
     | as the size rules. Feel free to tweak each of these messages here.
     |
     */
-
     'accepted'             => 'O campo :attribute deve ser aceito.',
     'active_url'           => 'O campo :attribute não é uma URL válida.',
     'after'                => 'O campo :attribute deve ser uma data posterior a :date.',
@@ -42,6 +39,18 @@ return [
     'exists'               => 'O campo :attribute selecionado é inválido.',
     'file'                 => 'O campo :attribute deve ser um arquivo.',
     'filled'               => 'O campo :attribute deve ter um valor.',
+    'gt'                   => [
+        'numeric' => 'O campo :attribute deve ser maior que :value.',
+        'file'    => 'O campo :attribute deve ser maior que :value kilobytes.',
+        'string'  => 'O campo :attribute deve ser maior que :value caracteres.',
+        'array'   => 'O campo :attribute deve conter mais de :value itens.',
+    ],
+    'gte'                  => [
+        'numeric' => 'O campo :attribute deve ser maior ou igual a :value.',
+        'file'    => 'O campo :attribute deve ser maior ou igual a :value kilobytes.',
+        'string'  => 'O campo :attribute deve ser maior ou igual a :value caracteres.',
+        'array'   => 'O campo :attribute deve conter :value itens ou mais.',
+    ],
     'image'                => 'O campo :attribute deve ser uma imagem.',
     'in'                   => 'O campo :attribute selecionado é inválido.',
     'in_array'             => 'O campo :attribute não existe em :other.',
@@ -50,6 +59,18 @@ return [
     'ipv4'                 => 'O campo :attribute deve ser um endereço IPv4 válido.',
     'ipv6'                 => 'O campo :attribute deve ser um endereço IPv6 válido.',
     'json'                 => 'O campo :attribute deve ser uma string JSON válida.',
+    'lt'                   => [
+        'numeric' => 'O campo :attribute deve ser menor que :value.',
+        'file'    => 'O campo :attribute deve ser menor que :value kilobytes.',
+        'string'  => 'O campo :attribute deve ser menor que :value caracteres.',
+        'array'   => 'O campo :attribute deve conter menos de :value itens.',
+    ],
+    'lte'                  => [
+        'numeric' => 'O campo :attribute deve ser menor ou igual a :value.',
+        'file'    => 'O campo :attribute deve ser menor ou igual a :value kilobytes.',
+        'string'  => 'O campo :attribute deve ser menor ou igual a :value caracteres.',
+        'array'   => 'O campo :attribute não deve conter mais que :value itens.',
+    ],
     'max'                  => [
         'numeric' => 'O campo :attribute não pode ser superior a :max.',
         'file'    => 'O campo :attribute não pode ser superior a :max kilobytes.',
@@ -65,6 +86,7 @@ return [
         'array'   => 'O campo :attribute deve ter pelo menos :min itens.',
     ],
     'not_in'               => 'O campo :attribute selecionado é inválido.',
+    'not_regex'            => 'O campo :attribute possui um formato inválido.',
     'numeric'              => 'O campo :attribute deve ser um número.',
     'present'              => 'O campo :attribute deve estar presente.',
     'regex'                => 'O campo :attribute tem um formato inválido.',
@@ -87,7 +109,6 @@ return [
     'unique'               => 'O campo :attribute já está sendo utilizado.',
     'uploaded'             => 'Ocorreu uma falha no upload do campo :attribute.',
     'url'                  => 'O campo :attribute tem um formato inválido.',
-
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
@@ -98,13 +119,11 @@ return [
     | specify a specific custom language line for a given attribute rule.
     |
     */
-
     'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
     ],
-
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Attributes
@@ -115,7 +134,5 @@ return [
     | of "email". This simply helps us make messages a little cleaner.
     |
     */
-
     'attributes' => [],
-
 ];
