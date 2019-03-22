@@ -1,4 +1,4 @@
-# Arquivos de linguagem em Português do Brasil (pt-BR) para Laravel 5.7
+# Arquivos de linguagem em Português do Brasil (pt-BR) para Laravel >= 5.6
 
 ## Instalação
 1. Clonar este repositório na pasta `resources/lang/` do seu projeto
