@@ -8,7 +8,7 @@
             "email": "lucas.sisau@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "master",
     "require": {},
     "autoload": {
         "psr-4": {
