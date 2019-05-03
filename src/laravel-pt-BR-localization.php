@@ -10,7 +10,7 @@ class LaravelPtBRLocalizationServiceProvider extends ServiceProvider
     */
     public function boot()
     {
-        $this->loadTranslationsFrom(__DIR__ . '/pt-BR');
+        $this->loadTranslationsFrom(__DIR__ , '/pt-BR');
         $this->publishes([
             __DIR__ . '/pt-BR' => resource_path('lang/pt-BR'),
         ], 'laravel-pt-br-localization');
