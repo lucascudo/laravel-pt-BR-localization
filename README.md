@@ -4,11 +4,11 @@
 
 1. Instalar o pacote
   ```shell
-  $ composer install lucascudo/laravel-pt-BR-localization
+  $ composer install lucascudo/laravel-pt-br-localization
   ```
 2. Publicar as traduções
   ```shell
-  $ php artisan vendor:publish -tag=laravel-pt-BR-localization
+  $ php artisan vendor:publish -tag=laravel-pt-br-localization
   ```
 3. Configurar o Framework para utilizar 'pt-BR' como linguagem padrão
   ```
