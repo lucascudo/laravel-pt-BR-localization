@@ -6,11 +6,7 @@
   ```shell
   $ composer require cascudo/laravel-pt-br-localization
   ```
-2. Publicar as traduções
-  ```shell
-  $ php artisan vendor:publish -tag=laravel-pt-br-localization
-  ```
-3. Configurar o Framework para utilizar 'pt-BR' como linguagem padrão
+2. Configurar o Framework para utilizar 'pt-BR' como linguagem padrão
   ```
   // Altere Linha 83 do arquivo config/app.php para:
   'locale' => 'pt-BR',
