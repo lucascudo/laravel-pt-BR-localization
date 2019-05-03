@@ -1,7 +1,7 @@
 {
     "name": "cascudo/laravel-pt-br-localization",
     "description": "Arquivos de linguagem em Português do Brasil (pt-BR) para Laravel >= 5.6",
-    "license": "GPL",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Cascudo",
