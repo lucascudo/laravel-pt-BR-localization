@@ -4,7 +4,7 @@
 
 1. Instalar o pacote
   ```shell
-  $ composer install lucascudo/laravel-pt-br-localization
+  $ composer require lucascudo/laravel-pt-br-localization
   ```
 2. Publicar as traduções
   ```shell
