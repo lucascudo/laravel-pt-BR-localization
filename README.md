@@ -8,7 +8,7 @@
   ```
 2. Publicar as traduções
   ```shell
-  $ php artisan vendor:publish -tag=laravel-pt-br-localization
+  $ php artisan vendor:publish --tag=laravel-pt-br-localization
   ```
 3. Configurar o Framework para utilizar 'pt-BR' como linguagem padrão
   ```
