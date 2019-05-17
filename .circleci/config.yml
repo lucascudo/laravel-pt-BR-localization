@@ -7,7 +7,7 @@ jobs:
       - image: lorisleiva/laravel-docker:7.3
     steps:
       - run: composer global require laravel/installer
-      - run: composer global require laravel/installer
+      - run: laravel new .
       - run: composer require lucascudo/laravel-pt-br-localization
       - run: pwd
       - run: ls
