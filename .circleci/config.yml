@@ -11,8 +11,8 @@ jobs:
       - run: php artisan vendor:publish --tag=laravel-pt-br-localization
       - run: pwd
       - run: ls
-      - run: [ ! -f resources/lang/pt-BR/auth.php ] && exit 1
-      - run: [ ! -f resources/lang/pt-BR/pagination.php ] && exit 1
-      - run: [ ! -f resources/lang/pt-BR/passwords.php ] && exit 1
-      - run: [ ! -f resources/lang/pt-BR/validation.php ] && exit 1
+      - run: "[ ! -f resources/lang/pt-BR/auth.php ] && exit 1"
+      - run: "[ ! -f resources/lang/pt-BR/pagination.php ] && exit 1"
+      - run: "[ ! -f resources/lang/pt-BR/passwords.php ] && exit 1"
+      - run: "[ ! -f resources/lang/pt-BR/validation.php ] && exit 1"
       
