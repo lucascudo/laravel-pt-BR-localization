@@ -6,8 +6,7 @@ jobs:
       # specify the version you desire here
       - image: lorisleiva/laravel-docker:7.3
     steps:
-      - run: composer global require laravel/installer
-      - run: laravel new app
+      - run: composer create-project --prefer-dist laravel/laravel app "5.8.*"
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "app/composer.json" }}
