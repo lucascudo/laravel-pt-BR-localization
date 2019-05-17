@@ -22,5 +22,5 @@ jobs:
       - run: "[ -f app/resources/lang/pt-BR/pagination.php ]"
       - run: "[ -f app/resources/lang/pt-BR/passwords.php ]"
       - run: "[ -f app/resources/lang/pt-BR/validation.php ]"
-      - run: "[ -f app/resources/lang/pt-BR/validation.phpa ]"
+      - run: "[ -f app/resources/lang/pt-BR/validation.php ]"
       
