@@ -5,7 +5,7 @@ jobs:
     docker:
       # specify the version you desire here
       - image: bitnami/laravel:5.8.17
-    working_directory: ~
+    working_directory: /app
     steps:
       - run: composer require lucascudo/laravel-pt-br-localization
       - run: php artisan vendor:publish --tag=laravel-pt-br-localization
