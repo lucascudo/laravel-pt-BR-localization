@@ -8,10 +8,19 @@ jobs:
     steps:
       - run: composer global require laravel/installer
       - run: laravel new app
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "app/composer.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
       - run: cd app && composer require lucascudo/laravel-pt-br-localization
+      - save_cache:
+          paths:
+            - vendor
+          key: v1-dependencies-{{ checksum "app/composer.json" }}
       - run: cd app && php artisan vendor:publish --tag=laravel-pt-br-localization
-      - run: cd app/resources/lang/pt-BR && "[ ! -f auth.php ] && exit 1"
-      - run: cd app/resources/lang/pt-BR && "[ ! -f pagination.php ] && exit 1"
-      - run: cd app/resources/lang/pt-BR && "[ ! -f passwords.php ] && exit 1"
-      - run: cd app/resources/lang/pt-BR && "[ ! -f validation.php ] && exit 1"
+      - run: "cd app/resources/lang/pt-BR && [ ! -f auth.php ] && exit 1"
+      - run: "cd app/resources/lang/pt-BR && [ ! -f pagination.php ] && exit 1"
+      - run: "cd app/resources/lang/pt-BR && [ ! -f passwords.php ] && exit 1"
+      - run: "cd app/resources/lang/pt-BR && [ ! -f validation.php ] && exit 1"
       
