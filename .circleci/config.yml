@@ -6,6 +6,10 @@ jobs:
       # specify the version you desire here
       - image: bitnami/laravel:5.8.17
     steps:
-      - checkout
       - run: composer require lucascudo/laravel-pt-br-localization
       - run: php artisan vendor:publish --tag=laravel-pt-br-localization
+      - run: test -f resources/lang/pt-BR/auth.php && echo 1
+      - run: test -f resources/lang/pt-BR/pagination.php && echo 1
+      - run: test -f resources/lang/pt-BR/passwords.php && echo 1
+      - run: test -f resources/lang/pt-BR/validation.php && echo 1
+      
