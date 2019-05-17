@@ -4,9 +4,10 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: bitnami/laravel:5.8.17
-    working_directory: /app
+      - image: lorisleiva/laravel-docker:7.3
     steps:
+      - run: composer global require laravel/installer
+      - run: composer global require laravel/installer
       - run: composer require lucascudo/laravel-pt-br-localization
       - run: pwd
       - run: ls
