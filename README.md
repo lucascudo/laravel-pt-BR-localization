@@ -1,6 +1,8 @@
 # Arquivos de linguagem em Português do Brasil (pt-BR) para Laravel >= 5.6
 
-<center>[![Latest Stable Version](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/v/stable)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization)</center>
+<center>
+[![Latest Stable Version](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/v/stable)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization)
+</center>
 
 ## Instalação
 
