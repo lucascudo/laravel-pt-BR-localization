@@ -28,4 +28,5 @@
 * [Laravel 5.5](https://github.com/enniosousa/laravel-5.5-pt-BR-localization)
 * [Laravel 5.4](https://github.com/Leomhl/laravel-5.4-pt-br-localization)
 * [Laravel 5.3](https://github.com/leandroluk/laravel-5.3-pt-br-localization)
+* [Laravel 5.2](https://github.com/felipeporto/laravel-5.2-pt-br-localization)
 * [Laravel 5.1](https://github.com/bmonteirog/laravel-5.1-pt-br-localization)
