@@ -1,0 +1,18 @@
+{
+    "Name": "Nome",
+    "E-Mail Address": "Email",
+    "Password": "Senha",
+    "Confirm Password": "Confirmação de senha",
+    "Remember Me": "Manter conectado",
+    "Forgot Your Password?": "Esqueceu sua senha?",
+    "Login": "Entrar",
+    "Register": "Registre-se",
+    "Home": "Principal",
+    "Logout": "Sair",
+    "Toggle navigation": "Alternar navegação",
+    "Verify Your Email Address": "Verifique seu endereço de email",
+    "A fresh verification link has been sent to your email address.": "Um novo link de verificação foi enviado para seu email",
+    "Before proceeding, please check your email for a verification link.": "Antes de prosseguir, por favor, veja se recebeu o link de verificação em seu email",
+    "If you did not receive the email": "Se você não recebeu o email",
+    "click here to request another": "clique aqui para solicitar outro"
+}
