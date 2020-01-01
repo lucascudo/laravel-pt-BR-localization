@@ -19,6 +19,7 @@
   ```
 ## Versões do Laravel suportadas
 
+* 6.x
 * 5.8
 * 5.7
 * 5.6
