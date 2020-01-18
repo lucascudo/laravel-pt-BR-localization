@@ -1,4 +1,4 @@
-name: PHP Composer
+name: laravel-pt-BR-localization
 
 on: [push]
 
@@ -19,7 +19,7 @@ jobs:
     
     - name: Publish translation
       run: php artisan vendor:publish --tag=laravel-pt-br-localization
-      working-directory: ./blog[
+      working-directory: ./blog
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
