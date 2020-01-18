@@ -1,0 +1,28 @@
+name: PHP Composer
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+ 
+    - name: Create a new project
+      run: composer create-project --prefer-dist laravel/laravel blog
+
+    - name: Install laravel-pt-BR-localization
+      run: composer require lucascudo/laravel-pt-br-localization
+      working-directory: ./blog
+    
+    - name: Publish translation
+      run: php artisan vendor:publish --tag=laravel-pt-br-localization
+      working-directory: ./blog[
+
+    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
+    # Docs: https://getcomposer.org/doc/articles/scripts.md
+
+    # - name: Run test suite
+    #   run: composer run-script test
