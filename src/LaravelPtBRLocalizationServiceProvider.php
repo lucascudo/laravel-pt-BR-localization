@@ -11,11 +11,11 @@ class LaravelPtBRLocalizationServiceProvider extends ServiceProvider
     public function register()
     {
         $this->publishes([
-            __DIR__ . '/pt-BR' => resource_path('lang/pt-BR'),
+            __DIR__ . '/pt_BR' => resource_path('lang/pt_BR'),
         ], 'laravel-pt-br-localization');
 
         $this->publishes([
-            __DIR__ . '/pt-BR.json' => resource_path('lang/pt-BR.json'),
+            __DIR__ . '/pt_BR.json' => resource_path('lang/pt_BR.json'),
         ], 'laravel-pt-br-localization');
     }
 }

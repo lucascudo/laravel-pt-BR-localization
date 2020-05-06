@@ -18,8 +18,9 @@ jobs:
             - vendor
           key: v1-dependencies-{{ checksum "app/composer.json" }}
       - run: cd app && php artisan vendor:publish --tag=laravel-pt-br-localization
-      - run: "[ -f app/resources/lang/pt-BR/auth.php ]"
-      - run: "[ -f app/resources/lang/pt-BR/pagination.php ]"
-      - run: "[ -f app/resources/lang/pt-BR/passwords.php ]"
-      - run: "[ -f app/resources/lang/pt-BR/validation.php ]"
+      - run: "[ -f app/resources/lang/pt_BR.json ]"
+      - run: "[ -f app/resources/lang/pt_BR/auth.php ]"
+      - run: "[ -f app/resources/lang/pt_BR/pagination.php ]"
+      - run: "[ -f app/resources/lang/pt_BR/passwords.php ]"
+      - run: "[ -f app/resources/lang/pt_BR/validation.php ]"
       
