@@ -21,7 +21,7 @@ jobs:
       run: php artisan vendor:publish --tag=laravel-pt-br-localization
       working-directory: ./blog
     
-    - name: Check pt_BR.json existence
+    - name: Check translation files existence
       run: "[ -f app/resources/lang/pt_BR.json ] && [ -f app/resources/lang/pt_BR/auth.php ] && [ -f app/resources/lang/pt_BR/pagination.php ] && [ -f app/resources/lang/pt_BR/passwords.php ] && [ -f app/resources/lang/pt_BR/validation.php ]"
       working-directory: ./blog
 
