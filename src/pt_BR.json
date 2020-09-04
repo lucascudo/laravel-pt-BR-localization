@@ -25,6 +25,7 @@
     "You are receiving this email because we received a password reset request for your account.": "Você está recebendo este e-mail porque recebemos uma solicitação de redefinição de senha para sua conta.",
     "If you did not request a password reset, no further action is required.": "Se você não solicitou a redefinição de senha, nenhuma ação adicional será necessária.",
     "This password reset link will expire in :count minutes.": "Este link de redefinição de senha expirará em :count minutos.",
+    "Please confirm your password before continuing." : "Por favor, confirme sua senha para continuar.",
     "Hello!": "Olá!",
     "Regards": "Saudações",
     "Reset Password Notification": "Notificação de redefinição de senha",
