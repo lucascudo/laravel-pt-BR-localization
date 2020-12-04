@@ -29,5 +29,12 @@
     "Hello!": "Olá!",
     "Regards": "Saudações",
     "Reset Password Notification": "Notificação de redefinição de senha",
-    "All rights reserved.": "Todos os direitos reservados."
+    "All rights reserved.": "Todos os direitos reservados.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character.": "O campo :attribute deve ter pelo menos :length e conter pelo menos um caractere maiúsculo.",
+    "The :attribute must be at least :length characters and contain at least one number.": "O campo :attribute deve ter pelo menos :length caracteres e conter pelo menos um número.",
+    "The :attribute must be at least :length characters and contain at least one special character.": "O campo :attribute deve ter pelo menos :length caracteres e conter pelo menos um caractere especial.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character and one number.": "O campo :attribute deve ter pelo menos :length caracteres e conter pelo menos um caractere maiúsculo e um número.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character and one special character.": "O campo :attribute deve ter pelo menos :length caracteres e conter pelo menos um caractere maiúsculo e um caractere especial.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character, one number, and one special character.": "O campo :attribute deve ter pelo menos :length caracteres e conter pelo menos um caractere maiúsculo, um número e um caractere especial.",
+    "The :attribute must be at least :length characters.": "O campo :attribute deve ter pelo menos :length caracteres."
 }
