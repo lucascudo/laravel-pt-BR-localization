@@ -104,6 +104,7 @@ return [
     'required_with_all'    => 'O campo :attribute é obrigatório quando :values está presente.',
     'required_without'     => 'O campo :attribute é obrigatório quando :values não está presente.',
     'required_without_all' => 'O campo :attribute é obrigatório quando nenhum dos :values estão presentes.',
+    'prohibited'           => 'O campo :attribute é proibido.',
     'prohibited_if'        => 'O campo :attribute é proibido quando :other for :value.',
     'prohibited_unless'    => 'O campo :attribute é proibido exceto quando :other for :values.',
     'same'                 => 'Os campos :attribute e :other devem corresponder.',
