@@ -91,6 +91,7 @@ return [
         'array'   => 'O campo :attribute deve ter pelo menos :min itens.',
     ],
     'not_in'               => 'O campo :attribute selecionado é inválido.',
+    'multiple_of'          => 'O campo :attribute deve ser um múltiplo de :value.',
     'not_regex'            => 'O campo :attribute possui um formato inválido.',
     'numeric'              => 'O campo :attribute deve ser um número.',
     'password'             => 'A senha está incorreta.',
