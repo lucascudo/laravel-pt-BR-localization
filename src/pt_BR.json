@@ -50,5 +50,7 @@
     "Create Account": "Criar Conta",
     "If you already have an account, you may accept this invitation by clicking the button below:": "Se já tiver uma conta, você pode aceitar esse convite através do botão abaixo:",
     "Accept Invitation": "Aceitar Convite",
-    "If you did not expect to receive an invitation to this team, you may discard this email.": "Se você não sabe porque está recebendo um convite para esse time, pode descartar esse email"
+    "If you did not expect to receive an invitation to this team, you may discard this email.": "Se você não sabe porque está recebendo um convite para esse time, pode descartar esse email",
+    "You are logged in!": "Você está logado!",
+    "Dashboard": "Painel de controle"
 }
