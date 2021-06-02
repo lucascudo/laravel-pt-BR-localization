@@ -91,6 +91,7 @@ return [
         'array'   => 'O campo :attribute deve ter pelo menos :min itens.',
     ],
     'not_in'               => 'O campo :attribute selecionado é inválido.',
+    'multiple_of'          => 'O campo :attribute deve ser um múltiplo de :value.',
     'not_regex'            => 'O campo :attribute possui um formato inválido.',
     'numeric'              => 'O campo :attribute deve ser um número.',
     'password'             => 'A senha está incorreta.',
@@ -103,6 +104,9 @@ return [
     'required_with_all'    => 'O campo :attribute é obrigatório quando :values está presente.',
     'required_without'     => 'O campo :attribute é obrigatório quando :values não está presente.',
     'required_without_all' => 'O campo :attribute é obrigatório quando nenhum dos :values estão presentes.',
+    'prohibited'           => 'O campo :attribute é proibido.',
+    'prohibited_if'        => 'O campo :attribute é proibido quando :other for :value.',
+    'prohibited_unless'    => 'O campo :attribute é proibido exceto quando :other for :values.',
     'same'                 => 'Os campos :attribute e :other devem corresponder.',
     'size'                 => [
         'numeric' => 'O campo :attribute deve ser :size.',
