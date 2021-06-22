@@ -23,6 +23,13 @@ php artisan vendor:publish --tag=laravel-pt-br-localization
 'locale' => 'pt_BR',
 ```
 
+4. Configure o Framework para utilizar 'America/Sao_Paulo' como data hora padrão
+
+```
+// Altere Linha 70 do arquivo config/app.php para:
+'timezone' => 'America/Sao_Paulo',
+```
+
 ## Versões do Laravel suportadas
 
 -   8.x
