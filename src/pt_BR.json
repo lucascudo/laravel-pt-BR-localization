@@ -56,5 +56,6 @@
     "The :attribute must contain at least one uppercase and one lowercase letter.": "O campo :attribute deve conter pelo menos uma letra maiúscula e uma letra minúscula.",
     "The :attribute must contain at least one letter.": "O campo :attribute deve conter pelo menos uma letra.",
     "The :attribute must contain at least one symbol.": "O campo :attribute deve conter pelo menos um símbolo.",
-    "The :attribute must contain at least one number.": "O campo :attribute deve conter pelo menos um número."
+    "The :attribute must contain at least one number.": "O campo :attribute deve conter pelo menos um número.",
+    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": "A senha que você inseriu em :attribute está em um vazamento de dados. Por favor escolha uma senha diferente."
 }
