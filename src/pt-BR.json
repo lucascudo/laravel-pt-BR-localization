@@ -57,5 +57,22 @@
     "The :attribute must contain at least one letter.": "O campo :attribute deve conter pelo menos uma letra.",
     "The :attribute must contain at least one symbol.": "O campo :attribute deve conter pelo menos um símbolo.",
     "The :attribute must contain at least one number.": "O campo :attribute deve conter pelo menos um número.",
-    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": "A senha que você inseriu em :attribute está em um vazamento de dados. Por favor escolha uma senha diferente."
+    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": "A senha que você inseriu em :attribute está em um vazamento de dados. Por favor escolha uma senha diferente.",
+	"Delete Account": "Deletar Conta",
+    "Are you sure you want to delete your account? Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account." : "Você tem certeza que quer deletar essa conta? Uma vez que sua conta é deletada, todos os dados serão permanentemente deletados. Por favor, entre com a sua senha para confirmar que você quer deletar permanentemente sua conta.",
+    "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.": "Depois que sua conta for excluída, todos os seus recursos e dados serão excluídos permanentemente. Antes de excluir sua conta, baixe todos os dados ou informações que deseja reter.",
+    "Permanently delete your account.": "Deleta permanentemente a sua conta.",
+    "If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password." : "Se necessário, você pode sair de todas as outras sessões do navegador em todos os seus dispositivos. Algumas de suas sessões recentes estão listadas abaixo; no entanto, esta lista pode não ser exaustiva. Se você acha que sua conta foi comprometida, você também deve atualizar sua senha.",
+    "Browser Sessions": "Sessões do navegador",
+    "Manage and log out your active sessions on other browsers and devices.": "Gerencie e saia de suas sessões ativas em outros navegadores e dispositivos.",
+    "Update Password": "Atualizar a senha",
+    "Ensure your account is using a long, random password to stay secure.": "Certifique-se de que sua conta esteja usando uma senha longa e aleatória para permanecer segura.",
+    "Profile Information": "Informação do Perfil",
+    "Update your account's profile information and email address.": "Atualize as informações do perfil da sua conta e o endereço de e-mail.",
+    "Profile": "Perfil",
+    "Save": "Salvar",
+    "Current Password": "Senha Atual",
+    "New Password": "Nova Senha",
+    "Log Out Other Browser Sessions": "Sair de outras sessões do navegador",
+    "Log Out": "Deslogar"
 }
