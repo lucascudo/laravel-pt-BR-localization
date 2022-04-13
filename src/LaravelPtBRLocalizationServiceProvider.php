@@ -10,18 +10,10 @@ class LaravelPtBRLocalizationServiceProvider extends ServiceProvider
     */
     public function register()
     {
-        if (Str::substr(app()->version(), 0, 1) == 9) {
-            $this->publishes([
-                __DIR__ . '/pt-BR.json' => app()->langPath('lang/pt-BR.json'),
-                __DIR__ . '/pt-BR' => app()->langPath('lang/pt-BR'),
-            ], 'laravel-pt-br-localization');
-        } else {
-            $this->publishes([
-                __DIR__ . '/pt-BR.json' => resource_path('lang/pt-BR.json'),
-                __DIR__ . '/pt-BR' => resource_path('lang/pt-BR'),
-            ], 'laravel-pt-br-localization');
-        }
-        
-        
+        $path_command = (substr(app()->version(), 0, 1) == 9) ? app()->langPath : resource_path;
+        $this->publishes([
+            __DIR__ . '/pt-BR.json' => $path_command('lang/pt-BR.json'),
+            __DIR__ . '/pt-BR' => $path_command('lang/pt-BR'),
+        ], 'laravel-pt-br-localization');
     }
 }
