@@ -32,6 +32,7 @@ php artisan vendor:publish --tag=laravel-pt-br-localization
 
 ## Versões do Laravel suportadas
 
+-   9.x
 -   8.x
 -   7.x
 -   6.x
