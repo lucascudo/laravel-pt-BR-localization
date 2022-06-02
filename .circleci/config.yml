@@ -6,6 +6,7 @@ jobs:
       # specify the version you desire here
       - image: lorisleiva/laravel-docker:7.3
     steps:
+      - run: composer clearcache 
       - run: composer create-project --prefer-dist laravel/laravel blog
       - run: cd blog && composer require lucascudo/laravel-pt-br-localization
       - run: cd blog && php artisan vendor:publish --tag=laravel-pt-br-localization
