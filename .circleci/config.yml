@@ -7,11 +7,11 @@ jobs:
       - image: lorisleiva/laravel-docker:7.3
     steps:
       - run: composer create-project --prefer-dist laravel/laravel blog
-      - run: cd app && composer require lucascudo/laravel-pt-br-localization
-      - run: cd app && php artisan vendor:publish --tag=laravel-pt-br-localization
-      - run: "[ -f app/resources/lang/pt-BR.json ]"
-      - run: "[ -f app/resources/lang/pt-BR/auth.php ]"
-      - run: "[ -f app/resources/lang/pt-BR/pagination.php ]"
-      - run: "[ -f app/resources/lang/pt-BR/passwords.php ]"
-      - run: "[ -f app/resources/lang/pt-BR/validation.php ]"
+      - run: cd blog && composer require lucascudo/laravel-pt-br-localization
+      - run: cd blog && php artisan vendor:publish --tag=laravel-pt-br-localization
+      - run: "[ -f blog/resources/lang/pt-BR.json ]"
+      - run: "[ -f blog/resources/lang/pt-BR/auth.php ]"
+      - run: "[ -f blog/resources/lang/pt-BR/pagination.php ]"
+      - run: "[ -f blog/resources/lang/pt-BR/passwords.php ]"
+      - run: "[ -f blog/resources/lang/pt-BR/validation.php ]"
       
