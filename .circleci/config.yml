@@ -7,16 +7,7 @@ jobs:
       - image: lorisleiva/laravel-docker:7.3
     steps:
       - run: composer create-project --prefer-dist laravel/laravel blog
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "app/composer.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
       - run: cd app && composer require lucascudo/laravel-pt-br-localization
-      - save_cache:
-          paths:
-            - vendor
-          key: v1-dependencies-{{ checksum "app/composer.json" }}
       - run: cd app && php artisan vendor:publish --tag=laravel-pt-br-localization
       - run: "[ -f app/resources/lang/pt-BR.json ]"
       - run: "[ -f app/resources/lang/pt-BR/auth.php ]"
