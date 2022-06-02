@@ -1,4 +1,4 @@
-# Módulo de linguagem Português do Brasil (pt-BR) para Laravel
+# Módulo de linguagem pt-BR (português brasileiro) para Laravel
 
 [![CircleCI](https://circleci.com/gh/lucascudo/laravel-pt-BR-localization.svg?style=svg)](https://circleci.com/gh/lucascudo/laravel-pt-BR-localization) [![Total Downloads](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/downloads)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization) [![Latest Stable Version](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/v/stable)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization) [![License](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/license)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization)
 
@@ -38,7 +38,7 @@ php artisan vendor:publish --tag=laravel-pt-br-localization
 -   6.x
 -   ^5.6
 
-### Para suporte a versões anteriores do Laravel, consulte:
+### Para versões anteriores, consulte:
 
 -   [Laravel 5.5](https://github.com/enniosousa/laravel-5.5-pt-BR-localization)
 -   [Laravel 5.4](https://github.com/Leomhl/laravel-5.4-pt-br-localization)
