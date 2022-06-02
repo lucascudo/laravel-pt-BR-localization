@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: ubuntu-latest
+      - image: lorisleiva/laravel-docker:7.3
     steps:
       - run: composer create-project --prefer-dist laravel/laravel blog
       - restore_cache:
