@@ -106,6 +106,7 @@ return [
     'present'              => 'O campo :attribute deve estar presente.',
     'regex'                => 'O campo :attribute tem um formato inválido.',
     'required'             => 'O campo :attribute é obrigatório.',
+    'required_array_keys'  => 'O campo :attribute deve conter entradas para: :values.',
     'required_if'          => 'O campo :attribute é obrigatório quando :other for :value.',
     'required_unless'      => 'O campo :attribute é obrigatório exceto quando :other for :values.',
     'required_with'        => 'O campo :attribute é obrigatório quando :values está presente.',
@@ -115,6 +116,7 @@ return [
     'prohibited'           => 'O campo :attribute é proibido.',
     'prohibited_if'        => 'O campo :attribute é proibido quando :other for :value.',
     'prohibited_unless'    => 'O campo :attribute é proibido exceto quando :other for :values.',
+    'prohibits'            => 'O campo :attribute proíbe :other de estar presente.',
     'same'                 => 'Os campos :attribute e :other devem corresponder.',
     'size'                 => [
         'numeric' => 'O campo :attribute deve ser :size.',
