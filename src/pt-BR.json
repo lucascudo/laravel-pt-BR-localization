@@ -118,5 +118,7 @@
     "Enable": "Habilitar",
     "Regenerate Recovery Codes": "Gerar novamente os códigos de recuperação",
     "Show Recovery Codes": "Mostrar os códigos de recuperação",
-    "Disable": "Desabilitar"
+    "Disable": "Desabilitar",
+    "(and :count more error)": "(e mais :count erro)",
+    "(and :count more errors)": "(e mais :count erros)"
 }
