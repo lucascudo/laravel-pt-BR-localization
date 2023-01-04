@@ -169,7 +169,7 @@ return [
         'address'   => 'endereço',
         'age'       => 'idade',
         'body'      => 'conteúdo',
-        'cell'      => 'celular',
+        'cell'      => 'célula',
         'city'      => 'cidade',
         'country'   => 'país',
         'date'      => 'data',
