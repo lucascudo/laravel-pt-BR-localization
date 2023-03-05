@@ -88,6 +88,7 @@ return [
         'string'  => 'O campo :attribute não pode ser superior a :max caracteres.',
         'array'   => 'O campo :attribute não pode ter mais do que :max itens.',
     ],
+    'max_digits'           => 'O campo :attribute não pode ser superior a :max dígitos',
     'mimes'                => 'O campo :attribute deve ser um arquivo do tipo: :values.',
     'mimetypes'            => 'O campo :attribute deve ser um arquivo do tipo: :values.',
     'min' => [
@@ -97,6 +98,7 @@ return [
         'array'   => 'O campo :attribute deve ter pelo menos :min itens.',
     ],
     'missing_with' => 'O campo :attribute não deve estar presente quando houver :values.',
+    'min_digits'           => 'O campo :attribute deve ter pelo menos :min dígitos',
     'not_in'               => 'O campo :attribute selecionado é inválido.',
     'multiple_of'          => 'O campo :attribute deve ser um múltiplo de :value.',
     'not_regex'            => 'O campo :attribute possui um formato inválido.',
@@ -107,7 +109,7 @@ return [
         'numbers'          => 'O campo :attribute deve conter pelo menos um número.',
         'symbols'          => 'O campo :attribute deve conter pelo menos um símbolo.',
         'uncompromised'    => 'A senha que você inseriu em :attribute está em um vazamento de dados.'
-                              . ' Por favor escolha uma senha diferente.',
+            . ' Por favor escolha uma senha diferente.',
     ],
     'present'              => 'O campo :attribute deve estar presente.',
     'regex'                => 'O campo :attribute tem um formato inválido.',
@@ -170,7 +172,7 @@ return [
         'address'   => 'endereço',
         'age'       => 'idade',
         'body'      => 'conteúdo',
-        'cell'      => 'celular',
+        'cell'      => 'célula',
         'city'      => 'cidade',
         'country'   => 'país',
         'date'      => 'data',
@@ -207,6 +209,11 @@ return [
         'description' => 'descrição',
         'password_confirmation' => 'confirmação da senha',
         'current_password' => 'senha atual',
+        'complement' => 'complemento',
+        'modality' => 'modalidade',
+        'category' => 'categoria',
+        'blood_type' => 'tipo sanguíneo',
+        'birth_date' => 'data de nascimento'
     ],
 
 ];
