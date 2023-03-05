@@ -125,5 +125,8 @@
     "Your email address is unverified.": "Seu endereço de e-mail não foi verificado.",
     "Click here to re-send the verification email.": "Clique aqui para reenviar o e-mail de verificação.",
     "A new verification link has been sent to your email address.": "Um novo link de verificação foi enviado para seu endereço de e-mail.",
-    "Saved.": "Salvou"
+    "Saved.": "Salvou",
+    "The given data was invalid." : "Os dados fornecidos são inválidos.",
+    "(and :count more error)": "(e mais :count erro)",
+    "(and :count more errors)": "(e mais :count erros)"
 }
