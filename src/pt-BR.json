@@ -119,6 +119,13 @@
     "Regenerate Recovery Codes": "Gerar novamente os códigos de recuperação",
     "Show Recovery Codes": "Mostrar os códigos de recuperação",
     "Disable": "Desabilitar",
+    "Update your account profile information and email address.": "Atualize as informações do perfil e o endereço de e-mail da sua conta.",
+    "Select A New Photo": "Selecione uma nova imagem",
+    "Remove Photo": "Remover imagem",
+    "Your email address is unverified.": "Seu endereço de e-mail não foi verificado.",
+    "Click here to re-send the verification email.": "Clique aqui para reenviar o e-mail de verificação.",
+    "A new verification link has been sent to your email address.": "Um novo link de verificação foi enviado para seu endereço de e-mail.",
+    "Saved.": "Salvou",
     "The given data was invalid." : "Os dados fornecidos são inválidos.",
     "(and :count more error)": "(e mais :count erro)",
     "(and :count more errors)": "(e mais :count erros)"
