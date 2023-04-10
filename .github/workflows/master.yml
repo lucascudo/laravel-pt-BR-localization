@@ -21,28 +21,28 @@ jobs:
       run: cp -rf composer.json src blog/vendor/lucascudo/laravel-pt-br-localization/
 
     - name: Publish translation
-      run: php artisan vendor:publish --tag=laravel-pt-br-localization && ls && ls lang && ls resources
+      run: php artisan vendor:publish --tag=laravel-pt-br-localization && ls && ls resources && ls resources/langs
       working-directory: ./blog
 
     - name: Verify pt_BR.json
-      run: test -f lang/pt_BR.json
-      working-directory: ./blog
+      run: test -f pt_BR.json
+      working-directory: ./blog/resources/lang
 
-    - name: Verify pt_BR/auth.php
-      run: test -f lang/pt_BR/auth.php
-      working-directory: ./blog
+    - name: Verify auth.php
+      run: test -f auth.php
+      working-directory: ./blog/resources/lang/pt_BR
     
-    - name: Verify pt_BR/pagination.php
-      run: test -f lang/pt_BR/pagination.php
-      working-directory: ./blog
+    - name: Verify pagination.php
+      run: test -f pagination.php
+      working-directory: ./blog/resources/lang/pt_BR
     
-    - name: Verify pt_BR/passwords.php
-      run: test -f lang/pt_BR/passwords.php
-      working-directory: ./blog
+    - name: Verify passwords.php
+      run: test -f passwords.php
+      working-directory: ./blog/resources/lang/pt_BR
     
-    - name: Verify pt_BR/validation.php
-      run: test -f lang/pt_BR/validation.php
-      working-directory: ./blog
+    - name: Verify validation.php
+      run: test -f validation.php
+      working-directory: ./blog/resources/lang/pt_BR
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
