@@ -1,6 +1,6 @@
 {
     "name": "lucascudo/laravel-pt-br-localization",
-    "description": "Arquivos de linguagem em Português do Brasil (pt-BR) para Laravel >= 5.6",
+    "description": "Arquivos de linguagem em Português do Brasil (pt_BR) para Laravel",
     "license": "GPL-3.0-or-later",
     "authors": [
         {

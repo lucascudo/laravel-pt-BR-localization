@@ -1,4 +1,4 @@
-# Módulo de linguagem pt-BR (português brasileiro) para Laravel
+# Módulo de linguagem pt_BR (português brasileiro) para Laravel
 
 [![CircleCI](https://circleci.com/gh/lucascudo/laravel-pt-BR-localization.svg?style=svg)](https://circleci.com/gh/lucascudo/laravel-pt-BR-localization) [![Total Downloads](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/downloads)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization) [![Latest Stable Version](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/v/stable)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization) [![License](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/license)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization)
 
@@ -16,22 +16,15 @@ composer require lucascudo/laravel-pt-br-localization --dev
 php artisan vendor:publish --tag=laravel-pt-br-localization
 ```
 
-3.  Configure o Framework para utilizar 'pt-BR' como linguagem padrão
+3.  Configure o Framework para utilizar 'pt_BR' como linguagem padrão
 
 ```
 // Altere Linha 85 do arquivo config/app.php para:
-'locale' => 'pt-BR',
-```
-
-4. Caso deseje, configure o Framework para utilizar 'America/Sao_Paulo' como data hora padrão
-
-```
-// Altere Linha 72 do arquivo config/app.php para:
-'timezone' => 'America/Sao_Paulo',
-```
+'locale' => 'pt_BR'
 
 ## Versões do Laravel suportadas
 
+-   10.x
 -   9.x
 -   8.x
 -   7.x
