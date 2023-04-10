@@ -13,8 +13,8 @@ jobs:
     - name: Create a new project
       run: composer create-project --prefer-dist laravel/laravel blog
     
-    - name: Copy laravel-pt-BR-localization content to Vendor directory
-      run: cp -r src blog/Vendor/laravel-pt-BR-localization
+    - name: Copy laravel-pt-BR-localization content to vendor directory
+      run: cp -r src blog/vendor/laravel-pt-BR-localization
 
     - name: Publish translation
       run: php artisan vendor:publish --tag=laravel-pt-br-localization
