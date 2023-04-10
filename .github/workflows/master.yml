@@ -25,7 +25,7 @@ jobs:
       run: cp -rf composer.json src blog/vendor/lucascudo/laravel-pt-br-localization/
 
     - name: Publish translation
-      run: php artisan vendor:publish --tag=laravel-pt-br-localization
+      run: php artisan vendor:publish --tag=laravel-pt-br-localization && ls vendor/lucascudo/laravel-pt-br-localization/ && ls lang
       working-directory: ./blog
 
     - name: Verify pt_BR.json
