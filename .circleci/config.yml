@@ -6,7 +6,7 @@ jobs:
       # specify the version you desire here
       - image: lorisleiva/laravel-docker:7.3
     steps:
-      - run: checkout
+      - checkout
       - run: ls
       - run: composer clearcache 
       - run: composer create-project --prefer-dist laravel/laravel blog
