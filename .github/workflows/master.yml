@@ -12,6 +12,10 @@ jobs:
  
     - name: Create a new project
       run: composer create-project --prefer-dist laravel/laravel blog
+
+    - name: Scaffold the lang directory
+      run: php artisan lang:publish
+      working-directory: ./blog
     
     - name: Installs laravel-pt-BR-localization
       run: composer require lucascudo/laravel-pt-br-localization --dev
@@ -21,28 +25,28 @@ jobs:
       run: cp -rf composer.json src blog/vendor/lucascudo/laravel-pt-br-localization/
 
     - name: Publish translation
-      run: php artisan vendor:publish --tag=laravel-pt-br-localization && ls && ls resources && ls resources/langs
+      run: php artisan vendor:publish --tag=laravel-pt-br-localization
       working-directory: ./blog
 
     - name: Verify pt_BR.json
       run: test -f pt_BR.json
-      working-directory: ./blog/resources/lang
+      working-directory: ./blog/lang
 
     - name: Verify auth.php
       run: test -f auth.php
-      working-directory: ./blog/resources/lang/pt_BR
+      working-directory: ./blog/lang/pt_BR
     
     - name: Verify pagination.php
       run: test -f pagination.php
-      working-directory: ./blog/resources/lang/pt_BR
+      working-directory: ./blog/lang/pt_BR
     
     - name: Verify passwords.php
       run: test -f passwords.php
-      working-directory: ./blog/resources/lang/pt_BR
+      working-directory: ./blog/lang/pt_BR
     
     - name: Verify validation.php
       run: test -f validation.php
-      working-directory: ./blog/resources/lang/pt_BR
+      working-directory: ./blog/lang/pt_BR
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md

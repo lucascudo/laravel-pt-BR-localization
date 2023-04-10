@@ -4,19 +4,25 @@
 
 ## Instalação
 
-1.  Instale o pacote
+2.  Scaffold do diretório lang
+
+```shell
+php artisan lang:publish
+```
+
+2.  Instale o pacote
 
 ```shell
 composer require lucascudo/laravel-pt-br-localization --dev
 ```
 
-2.  Publique as traduções
+3.  Publique as traduções
 
 ```shell
 php artisan vendor:publish --tag=laravel-pt-br-localization
 ```
 
-3.  Configure o Framework para utilizar 'pt_BR' como linguagem padrão
+4.  Configure o Framework para utilizar 'pt_BR' como linguagem padrão
 
 ```
 // Altere Linha 85 do arquivo config/app.php para:
