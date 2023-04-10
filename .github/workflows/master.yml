@@ -4,9 +4,7 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
  
@@ -24,6 +22,8 @@ jobs:
     - name: Override laravel-pt-BR-localization content at vendor directory
       run: cp -rf composer.json src blog/vendor/lucascudo/laravel-pt-br-localization/
 
+test:
+    steps:
     - name: Publish translation
       run: php artisan vendor:publish --tag=laravel-pt-br-localization && ls lang
       working-directory: ./blog
