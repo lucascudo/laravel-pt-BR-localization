@@ -14,10 +14,10 @@ jobs:
       run: composer create-project --prefer-dist laravel/laravel blog
     
     - name: Creates laravel-pt-BR-localization vendor directory
-      run: mkdir blog/vendor/laravel-pt-BR-localization
+      run: mkdir blog/vendor/laravel-pt-BR-localization && ls blog/vendor
     
     - name: Copy laravel-pt-BR-localization content to vendor directory
-      run: cp -r composer.json src blog/vendor/laravel-pt-BR-localization/
+      run: cp -r composer.json src blog/vendor/laravel-pt-BR-localization/ && ls blog/vendor/laravel-pt-BR-localization
 
     - name: Publish translation
       run: php artisan vendor:publish --tag=laravel-pt-br-localization
