@@ -18,7 +18,7 @@ jobs:
       working-directory: ./blog
     
     - name: Override laravel-pt-BR-localization content at vendor directory
-      run: cp -rf composer.json src blog/vendor/lucascudo/laravel-pt-BR-localization/
+      run: ls blog/vendor/lucascudo # cp -rf composer.json src blog/vendor/lucascudo/laravel-pt-BR-localization/
 
     - name: Publish translation
       run: php artisan vendor:publish --tag=laravel-pt-br-localization
