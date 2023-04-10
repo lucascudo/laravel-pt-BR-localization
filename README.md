@@ -4,7 +4,7 @@
 
 ## Instalação
 
-2.  Scaffold do diretório lang
+1.  Scaffold do diretório lang
 
 ```shell
 php artisan lang:publish
