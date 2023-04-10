@@ -24,19 +24,24 @@ jobs:
       working-directory: ./blog
 
     - name: Verify lang/pt_BR.json
-      run: test -f blog/resources/lang/pt_BR.json
+      run: test -f resources/lang/pt_BR.json
+      working-directory: ./blog
 
     - name: Verify pt_BR/auth.php
-      run: test -f blog/resources/lang/pt_BR/auth.php
+      run: test -f resources/lang/pt_BR/auth.php
+      working-directory: ./blog
     
     - name: Verify pt_BR/pagination.php
-      run: test -f blog/resources/lang/pt_BR/pagination.php
+      run: test -f resources/lang/pt_BR/pagination.php
+      working-directory: ./blog
     
     - name: Verify pt_BR/passwords.php
-      run: test -f blog/resources/lang/pt_BR/passwords.php
+      run: test -f resources/lang/pt_BR/passwords.php
+      working-directory: ./blog
     
     - name: Verify pt_BR/validation.php
-      run: test -f blog/resources/lang/pt_BR/validation.php
+      run: test -f resources/lang/pt_BR/validation.php
+      working-directory: ./blog
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
