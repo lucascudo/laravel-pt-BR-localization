@@ -11,14 +11,14 @@ jobs:
     - uses: actions/checkout@v1
  
     - name: Create a new project
-      run: ls && composer create-project --prefer-dist laravel/laravel ../blog
-    - name: Creates laravel-pt-BR-localization Vendor directory
-      run: ls && mkdir ../blog/Vendor/laravel-pt-BR-localization
+      run: composer create-project --prefer-dist laravel/laravel blog
+    
     - name: Copy laravel-pt-BR-localization content to Vendor directory
-      run: cp -r * ../blog/Vendor/laravel-pt-BR-localization/
+      run: cp -r src blog/Vendor/laravel-pt-BR-localization
+
     - name: Publish translation
       run: php artisan vendor:publish --tag=laravel-pt-br-localization
-      working-directory: ../blog
+      working-directory: ./blog
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
