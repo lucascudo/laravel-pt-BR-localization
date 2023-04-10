@@ -20,11 +20,15 @@ jobs:
       run: php artisan vendor:publish --provider="laravel-pt-br-localization/LaravelPtBRLocalizationServiceProvider.php"
       working-directory: ./blog
 
-    - name: Check translation files existence
+    - name: Verify lang/pt_BR.json
       run: test -f blog/resources/lang/pt_BR.json
+    - name: Verify pt_BR/auth.php
       run: test -f blog/resources/lang/pt_BR/auth.php
+    - name: Verify pt_BR/pagination.php
       run: test -f blog/resources/lang/pt_BR/pagination.php
+    - name: Verify pt_BR/passwords.php
       run: test -f blog/resources/lang/pt_BR/passwords.php
+    - name: Verify pt_BR/validation.php
       run: test -f blog/resources/lang/pt_BR/validation.php
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
