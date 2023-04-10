@@ -8,6 +8,7 @@ jobs:
     steps:
       - run: composer clearcache 
       - run: composer create-project --prefer-dist laravel/laravel blog
+      - run: ls blog
       - run: cp -r src blog/Vendor/laravel-pt-BR-localization
       - run: cd blog && php artisan vendor:publish --tag=laravel-pt-br-localization
       - run: "[ -f blog/resources/lang/pt-BR.json ]"
