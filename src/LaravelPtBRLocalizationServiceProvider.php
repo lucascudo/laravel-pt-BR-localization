@@ -14,9 +14,9 @@ class LaravelPtBRLocalizationServiceProvider extends ServiceProvider
     public function register()
     {
         $this->publishes([
-            __DIR__ . '/pt_BR.json' => $this->app->langPath . '/pt_BR.json',
-            __DIR__ . '/pt_BR' => $this->app->langPath . '/pt_BR',
-            $this->app->langPath . '/bla' => __DIR__ . 'bla'
+            __DIR__ . '/pt_BR.json' => $this->app->langPath() . '/pt_BR.json',
+            __DIR__ . '/pt_BR' => $this->app->langPath() . '/pt_BR',
+            $this->app->langPath() . '/bla' => __DIR__ . 'bla'
         ], 'laravel-pt-br-localization');
     }
 }
