@@ -13,7 +13,7 @@ class LaravelPtBRLocalizationServiceProvider extends ServiceProvider
     */
     public function register()
     {
-        $langPath = explode('.', $this->app->version())[0] > 8 ? '/lang' : '/resources/lang'
+        $langPath = explode('.', $this->app->version())[0] > 8 ? '/lang' : '/resources/lang';
         echo $langPath;
         die($this->app->langPath());
         $this->publishes([
