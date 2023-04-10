@@ -13,21 +13,28 @@ jobs:
     - name: Create a new project
       run: composer create-project --prefer-dist laravel/laravel blog
     
+    - name: Creates laravel-pt-BR-localization vendor directory
+      run: mkdir blog/vendor/laravel-pt-BR-localization
+    
     - name: Copy laravel-pt-BR-localization content to vendor directory
-      run: cp -r src blog/vendor/laravel-pt-BR-localization
+      run: cp -r composer.json src blog/vendor/laravel-pt-BR-localization/
 
     - name: Publish translation
-      run: php artisan vendor:publish --provider="laravel-pt-br-localization/LaravelPtBRLocalizationServiceProvider.php"
+      run: php artisan vendor:publish --tag=laravel-pt-br-localization
       working-directory: ./blog
 
     - name: Verify lang/pt_BR.json
       run: test -f blog/resources/lang/pt_BR.json
+
     - name: Verify pt_BR/auth.php
       run: test -f blog/resources/lang/pt_BR/auth.php
+    
     - name: Verify pt_BR/pagination.php
       run: test -f blog/resources/lang/pt_BR/pagination.php
+    
     - name: Verify pt_BR/passwords.php
       run: test -f blog/resources/lang/pt_BR/passwords.php
+    
     - name: Verify pt_BR/validation.php
       run: test -f blog/resources/lang/pt_BR/validation.php
 
