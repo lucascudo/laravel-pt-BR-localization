@@ -104,6 +104,7 @@
   "The :attribute must be at least :length characters.": "O campo :attribute deve ter pelo menos :length caracteres.",
   "The given data was invalid.": "Os dados fornecidos são inválidos.",
   "This is a secure area of the application. Please confirm your password before continuing.": "Essa é uma área segura da aplicação. Por favor confirme sua senha antes de continuar.",
+  "This password does not match our records.":"Esta Senha não bate com nossos registros",
   "This password reset link will expire in :count minutes.": "Este link de redefinição de senha expirará em :count minutos.",
   "Toggle navigation": "Alternar navegação",
   "Token Name": "Nome do Token",
