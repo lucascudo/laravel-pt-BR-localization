@@ -1,0 +1,25 @@
+{
+    "name": "lucascudo/laravel-pt-br-localization",
+    "description": "Arquivos de linguagem em Português do Brasil (pt_BR) para Laravel",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Cascudo",
+            "email": "lucas.sisau@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lucascudo\\LaravelPtBRLocalization\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lucascudo\\LaravelPtBRLocalization\\LaravelPtBRLocalizationServiceProvider"
+            ]
+        }
+    }
+}
