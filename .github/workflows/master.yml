@@ -1,4 +1,4 @@
-name: laravel-pt-BR-localization
+name: lucascudo/laravel-pt-br-localization
 
 on: [push]
 
@@ -15,39 +15,39 @@ jobs:
       run: php artisan lang:publish
       working-directory: ./blog
     
-    - name: Installs laravel-pt-BR-localization
+    - name: Installs laravel-pt-br-localization
       run: composer require lucascudo/laravel-pt-br-localization --dev
       working-directory: ./blog
     
     - name: Clean vendor directory
       run: rm -rf blog/vendor/lucascudo/laravel-pt-br-localization/*
     
-    - name: Override laravel-pt-BR-localization content at vendor directory
+    - name: Override laravel-pt-br-localization content at vendor directory
       run: cp -rf composer.json src blog/vendor/lucascudo/laravel-pt-br-localization/
 
     - name: Publish translations
       run: php artisan vendor:publish --tag=laravel-pt-br-localization && ls lang
       working-directory: ./blog
 
-    - name: Verify pt-br.json
-      run: test -f pt-br.json
+    - name: Verify pt-BR.json
+      run: test -f pt-BR.json
       working-directory: ./blog/lang
 
     - name: Verify auth.php
       run: test -f auth.php
-      working-directory: ./blog/lang/pt-br
+      working-directory: ./blog/lang/pt-BR
     
     - name: Verify pagination.php
       run: test -f pagination.php
-      working-directory: ./blog/lang/pt-br
+      working-directory: ./blog/lang/pt-BR
     
     - name: Verify passwords.php
       run: test -f passwords.php
-      working-directory: ./blog/lang/pt-br
+      working-directory: ./blog/lang/pt-BR
     
     - name: Verify validation.php
       run: test -f validation.php
-      working-directory: ./blog/lang/pt-br
+      working-directory: ./blog/lang/pt-BR
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
