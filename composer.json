@@ -1,7 +1,8 @@
 {
     "name": "lucascudo/laravel-pt-br-localization",
-    "description": "Arquivos de linguagem em Português do Brasil (pt_BR) para Laravel",
+    "description": "Arquivos de linguagem em Português do Brasil (pt-BR) para Laravel",
     "license": "GPL-3.0-or-later",
+    "homepage": "https://github.com/lucascudo/laravel-pt-BR-localization",
     "authors": [
         {
             "name": "Cascudo",
@@ -21,5 +22,11 @@
                 "Lucascudo\\LaravelPtBRLocalization\\LaravelPtBRLocalizationServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "post-package-install": [
+            "echo 'Buy me a coffee!'",
+            "echo https://www.buymeacoffee.com/lucasrocha"
+        ]
     }
 }
