@@ -22,11 +22,5 @@
                 "Lucascudo\\LaravelPtBRLocalization\\LaravelPtBRLocalizationServiceProvider"
             ]
         }
-    },
-    "scripts": {
-        "post-autoload-dump": [
-            "echo 'Buy me a coffee!'",
-            "echo https://www.buymeacoffee.com/lucasrocha"
-        ]
     }
 }
