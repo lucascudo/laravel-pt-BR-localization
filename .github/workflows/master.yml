@@ -1,4 +1,4 @@
-name: laravel-pt-br-localization
+name: laravel-pt-BR-localization
 
 on: [push]
 
@@ -15,14 +15,14 @@ jobs:
       run: php artisan lang:publish
       working-directory: ./blog
     
-    - name: Installs laravel-pt-br-localization
+    - name: Installs laravel-pt-BR-localization
       run: composer require lucascudo/laravel-pt-br-localization --dev
       working-directory: ./blog
     
     - name: Clean vendor directory
       run: rm -rf blog/vendor/lucascudo/laravel-pt-br-localization/*
     
-    - name: Override laravel-pt-br-localization content at vendor directory
+    - name: Override laravel-pt-BR-localization content at vendor directory
       run: cp -rf composer.json src blog/vendor/lucascudo/laravel-pt-br-localization/
 
     - name: Publish translations
