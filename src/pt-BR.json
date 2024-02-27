@@ -119,7 +119,7 @@
   "Verify Your Email Address": "Verifique seu endereço de e-mail",
   "When two factor authentication is enabled, you will be prompted for a secure, random token during authentication. You may retrieve this token from your phone's Google Authenticator application.": "Quando a autenticação de dois fatores estiver habilitada, você será solicitado a fornecer um token aleatório seguro durante a autenticação. Você pode recuperar esse token do aplicativo Google Authenticator do seu telefone.",
   "Whoops! Something went wrong.": "Opa! Algo deu errado.",
-  "You're logged in!":"Você está logado!",
+  "You're logged in!": "Você está logado!",
   "You are logged in!": "Você está logado!",
   "You are receiving this email because we received a password reset request for your account.": "Você está recebendo este e-mail porque recebemos uma solicitação de redefinição de senha para sua conta.",
   "You have been invited to join the :team team!": "Você foi convidado para entrar no time :team!",
@@ -146,5 +146,5 @@
   "Remove this person from the team.": "Remova esta pessoa do time.",
   "Administrator users can perform any action.": "O administrador pode realizar qualquer ação.",
   "Editor users have the ability to read, create, and update.": "O editor pode ler, criar e atualizar",
-  "Remove": "Remover",
+  "Remove": "Remover"
 }
