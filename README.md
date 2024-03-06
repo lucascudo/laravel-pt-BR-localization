@@ -27,6 +27,7 @@ php artisan vendor:publish --tag=laravel-pt-br-localization
 ```
 // Altere Linha 85 do arquivo config/app.php para:
 'locale' => 'pt-BR'
+```
 
 ## Versões do Laravel suportadas
 
