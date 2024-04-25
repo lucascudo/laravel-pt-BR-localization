@@ -22,11 +22,11 @@ composer require lucascudo/laravel-pt-br-localization --dev
 php artisan vendor:publish --tag=laravel-pt-br-localization
 ```
 
-4.  Configure o Framework para utilizar 'pt-BR' como linguagem padrão
+4.  Configure o Framework para utilizar 'pt_BR' como linguagem padrão
 
 ```
 // Altere Linha 85 do arquivo config/app.php para:
-'locale' => 'pt-BR'
+'locale' => 'pt_BR'
 ```
 
 ## Versões do Laravel suportadas
