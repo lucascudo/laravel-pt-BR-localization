@@ -1,4 +1,4 @@
-# Módulo de linguagem pt-br (português brasileiro) para Laravel
+# Módulo de linguagem pt-BR (português brasileiro) para Laravel
 
 ![example workflow](https://github.com/lucascudo/laravel-pt-br-localization/actions/workflows/master.yml/badge.svg) [![Total Downloads](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/downloads)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization) [![Latest Stable Version](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/v/stable)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization) [![License](https://poser.pugx.org/lucascudo/laravel-pt-br-localization/license)](https://packagist.org/packages/lucascudo/laravel-pt-br-localization)
 
@@ -22,11 +22,12 @@ composer require lucascudo/laravel-pt-br-localization --dev
 php artisan vendor:publish --tag=laravel-pt-br-localization
 ```
 
-4.  Configure o Framework para utilizar 'pt-br' como linguagem padrão
+4.  Configure o Framework para utilizar 'pt-BR' como linguagem padrão
 
 ```
 // Altere Linha 85 do arquivo config/app.php para:
-'locale' => 'pt-br'
+'locale' => 'pt-BR'
+```
 
 ## Versões do Laravel suportadas
 
