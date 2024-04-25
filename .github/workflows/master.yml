@@ -29,25 +29,25 @@ jobs:
       run: php artisan vendor:publish --tag=laravel-pt-br-localization
       working-directory: ./blog
 
-    - name: Verify pt-BR.json
-      run: test -f pt-BR.json
+    - name: Verify pt_BR.json
+      run: test -f pt_BR.json
       working-directory: ./blog/lang
 
     - name: Verify auth.php
       run: test -f auth.php
-      working-directory: ./blog/lang/pt-BR
+      working-directory: ./blog/lang/pt_BR
     
     - name: Verify pagination.php
       run: test -f pagination.php
-      working-directory: ./blog/lang/pt-BR
+      working-directory: ./blog/lang/pt_BR
     
     - name: Verify passwords.php
       run: test -f passwords.php
-      working-directory: ./blog/lang/pt-BR
+      working-directory: ./blog/lang/pt_BR
     
     - name: Verify validation.php
       run: test -f validation.php
-      working-directory: ./blog/lang/pt-BR
+      working-directory: ./blog/lang/pt_BR
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
