@@ -32,8 +32,6 @@ php artisan vendor:publish --tag=laravel-pt-br-localization
 APP_LOCALE=pt_BR
 ```
 
-Para as versões 
-
 ## Versões do Laravel suportadas
 
 -   11.x
