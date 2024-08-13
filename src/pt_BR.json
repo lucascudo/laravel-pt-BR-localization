@@ -116,6 +116,7 @@
   "Team Owner": "Proprietário do Time",
   "Team Settings": "Gerenciamento de Times",
   "Terms of Service": "Termos do Serviço",
+  "Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn't receive the email, we will gladly send you another.": "Obrigado por se inscrever! Antes de começar, você poderia verificar seu endereço de e-mail clicando no link que acabamos de enviar para você? Se você não recebeu o e-mail, ficaremos felizes em enviar outro.",
   "The :attribute must be at least :length characters and contain at least one number.": "O campo :attribute deve ter pelo menos :length caracteres e conter pelo menos um número.",
   "The :attribute must be at least :length characters and contain at least one special character.": "O campo :attribute deve ter pelo menos :length caracteres e conter pelo menos um caractere especial.",
   "The :attribute must be at least :length characters and contain at least one uppercase character and one number.": "O campo :attribute deve ter pelo menos :length caracteres e conter pelo menos um caractere maiúsculo e um número.",
