@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Lucascudo\\LaravelPtBRLocalization\\": "src/"
+            "Lucascudo\\LaravelPtBrLocalization\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lucascudo\\LaravelPtBRLocalization\\LaravelPtBRLocalizationServiceProvider"
+                "Lucascudo\\LaravelPtBrLocalization\\LaravelPtBrLocalizationServiceProvider"
             ]
         }
     }

@@ -1,10 +1,10 @@
 <?php
 
-namespace Lucascudo\LaravelPtBRLocalization;
+namespace Lucascudo\LaravelPtBrLocalization;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelPtBRLocalizationServiceProvider extends ServiceProvider
+class LaravelPtBrLocalizationServiceProvider extends ServiceProvider
 {
     /**
     * Publishes translation files.
