@@ -158,5 +158,6 @@
   "You have not enabled two factor authentication.": "Você ainda não habilitou a autenticação de dois fatores.",
   "You may delete any of your existing tokens if they are no longer needed.": "Você deve deletar os tokens sem utilização.",
   "Your email address is unverified.": "Seu endereço de e-mail não foi verificado.",
-  "Photo": "Foto"
+  "Photo": "Foto",
+  "For your security, please confirm your password to continue.": "Por segurança, por favor confirme sua senha para continuar."
 }
