@@ -15,7 +15,7 @@ return [
 
     'accepted'             => 'O campo :attribute deve ser aceito.',
     'accepted_if'          => 'O :attribute deve ser aceito quando :other for :value.',
-    'active_url'           => 'O campo :attribute não é uma URL válida.',
+    'active_url'           => 'O campo :attribute deve ser uma URL válida.',
     'after'                => 'O campo :attribute deve ser uma data posterior a :date.',
     'after_or_equal'       => 'O campo :attribute deve ser uma data posterior ou igual a :date.',
     'alpha'                => 'O campo :attribute só pode conter letras.',
@@ -36,7 +36,7 @@ return [
     'confirmed'            => 'O campo :attribute de confirmação não confere.',
     'contains'             => 'O campo :attribute está faltando um valor obrigatório.',
     'current_password'     => 'A senha está incorreta.',
-    'date'                 => 'O campo :attribute não é uma data válida.',
+    'date'                 => 'O campo :attribute deve ser uma data válida.',
     'date_equals'          => 'O campo :attribute deve ser uma data igual a :date.',
     'date_format'          => 'O campo :attribute não corresponde ao formato :format.',
     'decimal'              => 'O campo :attribute deve ter :decimal casas decimais.',
