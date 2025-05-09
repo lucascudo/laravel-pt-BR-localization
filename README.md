@@ -32,6 +32,12 @@ php artisan vendor:publish --tag=laravel-pt-br-localization
 APP_LOCALE=pt_BR
 ```
 
+5.  Recrie o cache das configurações
+
+```shell
+php artisan config:cache
+```
+
 ## Versões do Laravel suportadas
 
 -   12.x
